@@ -34,3 +34,13 @@ Here **CE** means context extension while **DA** means data augmentation.
 
 
 ## Result
+We obtain the following results:
+
+|  Model   | Val  | Test | Test-E | Test-H |
+|  ----  | ----  |  ----  | ----  |  ----  |
+|  bert-base  | 54.6  |  47.3 | 71.6 |  28.2  |
+|  bert-large  | 53.8  |  49.8  | 72.0  |  32.3  |
+|  xlnet-base  | 55.8  |  50.4  | 75.2  |  32.9  |
+|  xlnet-large  | 62.0  |  56.0 | 75.7  |  40.5  |
+|  roberta-base  | 55.0  |  48.5  | 71.1  |  30.7  |
+|  roberta-large  | 62.6  |  55.6  | 75.5  |  40.0  |
