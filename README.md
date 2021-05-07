@@ -12,7 +12,12 @@ If you find this paper useful, please cite this paper:
 pip install -r requirements.txt
 ```
 
-2. To get the datasets, you can refer to the paper [ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning](https://openreview.net/pdf?id=HJgJtT4tvB). We also provide our preprocessed data in `reclor-data` folder.
+2. To get the datasets, you can refer to the paper [ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning](https://openreview.net/pdf?id=HJgJtT4tvB). We also provide our preprocessed data in `reclor-data` folder. You can preprocess the data as following:
+```
+cd DataPreprocess
+python extract_logical_expressions_v2.py
+python construct_negative_samples_v2.py
+```
 
 ## Usage
 
