@@ -1,7 +1,7 @@
 # LReasoner
 The source code of Paper "Logic-Driven Context Extension and Data Augmentation for Logical Reasoning of Text"
 
-Our ensemble system is the **first to surpass human performance on both EASY set and HARD set of ReClor** [EvalAI leaderboard](https://evalai.cloudcv.org/web/challenges/challenge-page/503/leaderboard/1347). If you find this paper useful, please cite this paper:
+Our ensemble system is the **first to surpass human performance on both EASY set and HARD set of ReClor** ([EvalAI leaderboard](https://evalai.cloudcv.org/web/challenges/challenge-page/503/leaderboard/1347)). If you find this paper useful, please cite this paper:
 ```
 @
 ```
