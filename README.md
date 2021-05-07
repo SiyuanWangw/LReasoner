@@ -36,9 +36,9 @@ Here **CE** means context extension while **DA** means data augmentation.
 ## Result
 We obtain the following results:
 
-|  Model   | Test | Test-E | Test-H |
+|  Model   | Test | EASY | HARD |
 |  ----  | ----  | ----  |  ----  |
-|  LReasoner-RoBERTa  |  62.4  | 81.4  |  47.5  |
-|  LReasoner-ALBERT  |  70.7  | 81.1  |  62.5  |
-|  Human Performance  |  63.0  | 57.1  |  67.2  |
+|  LReasoner-RoBERTa  |  62.4  |  81.4  |  47.5  |
+|  LReasoner-ALBERT  |  70.7  |  81.1  |  62.5  |
+|  Human Performance  |  63.0  |  57.1  |  67.2  |
 
