@@ -13,8 +13,8 @@ pip install -r requirements.txt
 ```
 
 2. To get the datasets, you can refer to the paper [ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning](https://openreview.net/pdf?id=HJgJtT4tvB) to get the original data. We also provide our preprocessed data in `reclor-data` folder. Or you can start from the original data and preprocess it by the following steps:
- 1) exrtact the logical symbols and identify the logical expressions in the context, then infer the entailed logical expressions;
- 2) select a logical expreesion in the context and construct the negative samples based on it.
+ * Step 1: exrtact the logical symbols and identify the logical expressions in the context, then infer the entailed logical expressions;
+ * Step 2: select a logical expreesion in the context and construct the negative samples based on it.
 ```
 cd DataPreprocess
 python extract_logical_expressions_v2.py
