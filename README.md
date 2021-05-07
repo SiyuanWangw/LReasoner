@@ -8,20 +8,29 @@ Our ensemble system is the **first to surpass human performance on both EASY set
 
 ## Setting up
 1. To set up the environment, please install the packages in the `requirements.txt`.
-```
+```bash
 pip install -r requirements.txt
 ```
 
-2. To get the datasets, you can refer to the paper [ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning](https://openreview.net/pdf?id=HJgJtT4tvB) to get the original data. We also provide our preprocessed data in `reclor-data` folder. Or you can start from the original data and preprocess it by the following steps:
+2. To get the datasets, you can refer to the paper [ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning](https://openreview.net/pdf?id=HJgJtT4tvB) to get the original data. We also provide our preprocessed data in `reclor-data` directory. Or you can start from the original data and preprocess it by the following steps:
  * Step 1: exrtact the logical symbols and identify the logical expressions in the context, then infer the entailed logical expressions;
  * Step 2: select a logical expreesion in the context and construct the negative samples based on it.
-```
+```bash
 cd DataPreprocess
 python extract_logical_expressions_v2.py
 python construct_negative_samples_v2.py
 ```
 
 ## Usage
+Then you can run the LReasoner system in the scripts directory as following:
+```bash
+1. LReasoner_roberta
+    bash run_roberta_DA_CE.sh
+    
+2. LReasoner_albert
+    bash run_albert_DA_CE.sh
+```
+Here **CE** means context extension while **DA** means data augmentation.
 
 
 ## Result
