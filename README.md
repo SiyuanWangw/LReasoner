@@ -24,11 +24,11 @@ python construct_negative_samples_v2.py
 ## Usage
 Then you can run the LReasoner system in the scripts directory as following:
 ```bash
-1. LReasoner_roberta
-    bash run_roberta_DA_CE.sh
+1. for LReasoner_roberta
+        bash run_roberta_DA_CE.sh
     
-2. LReasoner_albert
-    bash run_albert_DA_CE.sh
+2. for LReasoner_albert
+        bash run_albert_DA_CE.sh
 ```
 Here **CE** means context extension while **DA** means data augmentation.
 
