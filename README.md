@@ -3,7 +3,14 @@ The source code of Paper "Logic-Driven Context Extension and Data Augmentation f
 
 Our ensemble system is the **first to surpass human performance on both EASY set and HARD set of ReClor** ([EvalAI leaderboard](https://evalai.cloudcv.org/web/challenges/challenge-page/503/leaderboard/1347)). If you find this paper useful, please cite this paper:
 ```
-@
+@misc{wang2021logicdriven,
+      title={Logic-Driven Context Extension and Data Augmentation for Logical Reasoning of Text}, 
+      author={Siyuan Wang and Wanjun Zhong and Duyu Tang and Zhongyu Wei and Zhihao Fan and Daxin Jiang and Ming Zhou and Nan Duan},
+      year={2021},
+      eprint={2105.03659},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Setting up
@@ -24,10 +31,10 @@ python construct_negative_samples_v2.py
 ## Usage
 Then you can run the LReasoner system in the scripts directory as following:
 ```bash
-1. for LReasoner_roberta
+1. to run LReasoner_roberta
         bash run_roberta_DA_CE.sh
     
-2. for LReasoner_albert
+2. to run LReasoner_albert
         bash run_albert_DA_CE.sh
 ```
 Here **CE** means context extension while **DA** means data augmentation.
