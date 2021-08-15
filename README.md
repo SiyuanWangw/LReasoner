@@ -49,4 +49,5 @@ We obtain the following results:
 |  LReasoner-ALBERT  |  70.7  |  81.1  |  62.5  |
 |  Human Performance  |  63.0  |  57.1  |  67.2  |
 
+The checkpoints of LReasoner-RoBERTa and LReasoner-ALBERT can be accessed here: https://drive.google.com/drive/folders/1Gqoa7DR9wZmMhpLHuXQnznEhdnlZnkbp?usp=sharing.
 We only evaluate our model on the ReClor dataset and plan to try more datasets. As codes are publicly available, anyone interested could also have a try. 
