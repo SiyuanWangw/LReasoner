@@ -81,13 +81,6 @@ def init_args():
         required=True,
         help="The output directory where the model predictions and checkpoints will be written.",
     )
-    parser.add_argument(
-        "--pretrain_checkpoint",
-        default=None,
-        type=str,
-        required=True,
-        help="The directory where the pretrain model will be written.",
-    )
 
     # Other parameters
     parser.add_argument(
